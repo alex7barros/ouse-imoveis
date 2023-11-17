@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUSE</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!--Google Fontes -Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- CsS bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <!-- CsS DO PROJETO-->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!--Java Script Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navebar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="#" class="navbar-brand primary-color">
+                <img src="img/livro.png" alt=" Ouse" />
+                <span>Ouse Imóveis</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbar-items"
+            aria-controls="navbar-items" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" 
+                        class="nav-link primary-color">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" 
+                        class="nav-link active" 
+                        aria-current="page">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<body>
+  <div class="container mt-5 form-container">
+    <h2>Formulário de Contato</h2>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" class="form-control" id="nome" name="nome" required>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="email">E-mail:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" class="form-control" id="telefone" name="telefone">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem:</label>
+        <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+    </form>
+  </div>
+   <!-- INFO -->
+   <div class="container" id="info-container">
+    <div class="col-12">
+      <h2 class="title primary-color">Detalhes Importantes</h2>
+      <p class="subtitle secondary-color">
+        Saiba mais sobre a experiência da nossa incrível equipe
+      </p>
+    </div>
+    <div class="col-12">
+      <div class="row">
+        <div class="col-12 col-md-5" id="info-banner">
+          <img src="img/infobanner.jpg" alt="Informações" class="img-fluid" />
+        </div>
+        <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="title">Estes dados fazem a diferença:</h2>
+              <p class="subtitle secondary-color">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Praesentium tempore fugit et iusto quisquam beatae impedit
+                nobis quas doloribus, atque, ut id similique eligendi, ab
+                soluta magnam maxime cum debitis.
+              </p>
+            </div>
+            <div class="col-12" id="info-numbers">
+              <div class="row">
+                <div class="col-4">
+                  <h3 class="primary-color">18</h3>
+                  <p class="secondary-color">Anos na construção civil</p>
+                </div>
+                <div class="col-4">
+                  <h3 class="primary-color">95</h3>
+                  <p class="secondary-color">Projetos executados</p>
+                </div>
+                <div class="col-4">
+                  <h3 class="primary-color">639</h3>
+                  <p class="secondary-color">Clientes</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <a class="btn btn-dark">Saber Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <footer class="container-fluid bg-dark-color" id="footer">
+    <div class="container">
+      <div class="row">
+        <!-- FOOTER TOP -->
+        <div class="col-12" id="footer-top">
+          <div class="row justify-content-between">
+            <div class="col-4">
+              <h2>
+                OUSE IMÓVEIS
+              </h2>
+            </div>
+            <div class="col-4" id="social-icons">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-youtube"></i>
+              <i class="bi bi-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <!-- FOOTER DETAILS -->
+        <div class="col-12" id="footer-details">
+          <div class="row">
+            <div class="col-12 col-md-4" id="news-container">
+              <h4>Fique por dentro das novidades</h4>
+              <p class="secondary-color">
+                Inscreva-se para saber em primeira mão
+              </p>
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Digite o seu e-mail"
+                  />
+                </div>
+                <button class="btn btn-dark">Inscrever</button>
+              </form>
+            </div>
+            <div class="col-12 col-md-4" id="contact-container">
+              <h4>Formas de contato</h4>
+              <p class="secondary-color">(48)9999-9999</p>
+              <p class="secondary-color">contato@ouseimoveis.com.br</p>
+            </div>
+            <div class="col-12 col-md-4" id="links-container">
+              <div class="row">
+                <h4>Você pode estar buscando por:</h4>
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="secondary-color">Projetos</a></li>
+                    <li><a href="#" class="secondary-color">Imóveis</a></li>
+                    <li><a href="#" class="secondary-color">Vendas</a></li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="secondary-color">Contratar</a></li>
+                    <li>
+                      <a href="#" class="secondary-color">Trabalhe conosco</a>
+                    </li>
+                    <li><a href="#" class="secondary-color">Contato</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FOOTER BOTTOM -->
+        <div class="col-12" id="footer-bottom">
+          <div class="row justify-content-between">
+            <div class="col-12 col-md-3">
+              <p class="secondary-color">Ouse Imóveis &copy; 2023</p>
+            </div>
+            <div class="col-12 col-md-3">
+              <p class="secondary-color">
+                Realizamos o seu projeto com
+                <i class="bi bi-heart"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
